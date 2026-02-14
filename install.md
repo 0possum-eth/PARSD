@@ -55,10 +55,19 @@ cd /path/to/a.r.s.d
 
 What it does:
 - Installs skills to `${OPENCODE_CONFIG_DIR:-~/.config/opencode}/skills`
-- Installs plugin to `${OPENCODE_CONFIG_DIR:-~/.config/opencode}/plugins/arbiter-os.js`
+- Backs up existing plugin (if present), then installs plugin to `${OPENCODE_CONFIG_DIR:-~/.config/opencode}/plugins/arbiter-os.js`
 - Copies resonant runtime files into your workspace
 
 Then restart OpenCode.
+
+If OpenCode fails to load sessions/files after install:
+
+```bash
+mv "${OPENCODE_CONFIG_DIR:-$HOME/.config/opencode}/plugins/arbiter-os.js" \
+   "${OPENCODE_CONFIG_DIR:-$HOME/.config/opencode}/plugins/arbiter-os.js.disabled.$(date +%Y%m%d%H%M%S)"
+```
+
+Restart OpenCode, then reinstall with a workspace path.
 
 ## 3) Install in Replit (skills only)
 

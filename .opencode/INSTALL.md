@@ -36,3 +36,14 @@ test -f "./arbiter/resonant/ssot.ts"
 ```
 
 Restart OpenCode after install so skills and plugin hooks reload.
+
+## Recovery (if OpenCode fails after plugin install)
+
+If OpenCode errors during startup/session load, temporarily disable the plugin:
+
+```bash
+mv "${OPENCODE_CONFIG_DIR:-$HOME/.config/opencode}/plugins/arbiter-os.js" \
+   "${OPENCODE_CONFIG_DIR:-$HOME/.config/opencode}/plugins/arbiter-os.js.disabled.$(date +%Y%m%d%H%M%S)"
+```
+
+Then restart OpenCode and re-run the install command above.

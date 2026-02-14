@@ -38,3 +38,15 @@ Fetch and follow instructions from https://raw.githubusercontent.com/0possum-eth
 - OpenCode uses plugin hooks for automatic transform/guardrail wiring.
 - Replit installs in this package are skills-only by design.
 - If your target workspace is omitted, skills/plugin install still succeeds without runtime file copy.
+- Installer now backs up an existing plugin before replacing it.
+
+## Troubleshooting
+
+If OpenCode shows session/file-load failures after plugin install, disable the plugin and restart:
+
+```bash
+mv "${OPENCODE_CONFIG_DIR:-$HOME/.config/opencode}/plugins/arbiter-os.js" \
+   "${OPENCODE_CONFIG_DIR:-$HOME/.config/opencode}/plugins/arbiter-os.js.disabled.$(date +%Y%m%d%H%M%S)"
+```
+
+Then reinstall using the recommended path in `.opencode/INSTALL.md`.
