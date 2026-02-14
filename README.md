@@ -21,7 +21,7 @@ This project extends that foundation with Arbiter orchestration, Resonant M1-M5 
 
 ## Installation
 
-Note: Installation differs by platform. Claude Code has a built-in plugin system. Codex and OpenCode require manual setup.
+Note: Installation differs by platform. Claude Code has a built-in plugin system. Codex, OpenCode, and Replit require manual setup.
 
 ### Claude Code (via Plugin Marketplace)
 
@@ -61,6 +61,16 @@ Fetch and follow instructions from https://raw.githubusercontent.com/0possum-eth
 ```
 
 Detailed docs: `docs/README.opencode.md`
+
+### Replit (skills-only mode)
+
+Tell Replit:
+
+```text
+Fetch and follow instructions from https://raw.githubusercontent.com/0possum-eth/PARSD/refs/heads/main/.replit/INSTALL.md
+```
+
+Detailed docs: `docs/README.replit.md`
 
 ## What You Get
 
@@ -190,10 +200,13 @@ flowchart TD
 │   └── INSTALL.md
 ├── .opencode/
 │   └── INSTALL.md
+├── .replit/
+│   └── INSTALL.md
 ├── README.md
 ├── docs/
 │   ├── README.codex.md
-│   └── README.opencode.md
+│   ├── README.opencode.md
+│   └── README.replit.md
 ├── install.md
 ├── scripts/
 │   ├── install-codex.sh
