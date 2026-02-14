@@ -11,7 +11,7 @@ PARSD is a standalone skill-and-runtime package for running a ledger-first, role
 | **P** | **Persistent** | State, memory, receipts, and SSoT context are durably stored and reused across runs. |
 | **A** | **Arbiter** | One coordinator governs role turns, ordering, and completion gates. |
 | **R** | **Resonant** | M1-M5 guardrails continuously shape context, output quality, and fault recovery. |
-| **S** | **SuperDAO** | File-backed multi-role collaboration via roster, board, assignments, and wiring catalogs. |
+| **S** | **Super** | File-backed multi-role collaboration via roster, board, assignments, and wiring catalogs. |
 | **D** | **DAO** | Explicit governance artifacts and structured evidence are first-class system behavior. |
 
 ## Foundation Credit
