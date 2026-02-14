@@ -1,4 +1,4 @@
-# Complete Install Guide: A.R.S.D
+# Complete Install Guide: PARSD
 
 This package is self-contained and can be published directly as a GitHub repo.
 
@@ -30,7 +30,7 @@ Replit in this package is intentionally skills-only.
 From inside this package root:
 
 ```bash
-cd /path/to/a.r.s.d
+cd /path/to/p.a.r.s.d
 ./scripts/install-codex.sh /path/to/your/workspace
 ```
 
@@ -49,7 +49,7 @@ Optional skills-only:
 From inside this package root:
 
 ```bash
-cd /path/to/a.r.s.d
+cd /path/to/p.a.r.s.d
 ./scripts/install-opencode.sh /path/to/your/workspace
 ```
 
@@ -74,7 +74,7 @@ Restart OpenCode, then reinstall with a workspace path.
 Runtime hooks are intentionally excluded here per request.
 
 ```bash
-cd /path/to/a.r.s.d
+cd /path/to/p.a.r.s.d
 ./scripts/install-replit-skills-only.sh /path/to/replit/repo
 ```
 

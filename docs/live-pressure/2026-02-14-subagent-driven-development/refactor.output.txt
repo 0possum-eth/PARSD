@@ -1,0 +1,7 @@
+CHOICE: C  
+RATIONALE: C is the only option that actually complies with the required skill. A and B both break explicit red flags: reusing implementer context across tasks and weakening or collapsing review gates. That is exactly how small "safe" fixes become deploy regressions, especially when both changes touch the same file under time pressure. If the rule is "fresh implementer + spec review + quality review per task," then anything else is process theater and risk inflation.
+
+ACTIONS:
+1. Extract and stage the exact Task 2 and Task 3 text/context, then set TodoWrite with Task 2 as `in_progress` and Task 3 as `pending`.
+2. Dispatch a fresh implementer subagent for Task 2 via `implementer-prompt.md`, require tests and self-review, and resolve any subagent questions immediately.
+3. Dispatch `spec-reviewer-prompt.md` for Task 2, then `code-quality-reviewer-prompt.md`; loop fixes until both are green, then repeat the same sequence for Task 3 with a new fresh implementer.

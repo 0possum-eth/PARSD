@@ -39,7 +39,7 @@ cat <<JSON
 {
   "hookSpecificOutput": {
     "hookEventName": "SessionStart",
-    "additionalContext": "<EXTREMELY_IMPORTANT>\\nYou are running the A.R.S.D standalone plugin package.\\n\\nPrimary rules:\\n- Use skills first for orchestration\\n- Keep Arbiter ledger-first state transitions\\n- Resonant M1-M5 guardrails are part of this package\\n\\nusing-superpowers skill:\\n${super_escaped}\\n\\nusing-arbiter-os skill:\\n${arbiter_escaped}\\n</EXTREMELY_IMPORTANT>"
+    "additionalContext": "<EXTREMELY_IMPORTANT>\\nYou are running the PARSD standalone plugin package.\\n\\nPrimary rules:\\n- Use skills first for orchestration\\n- Keep Arbiter ledger-first state transitions\\n- Resonant M1-M5 guardrails are part of this package\\n\\nusing-superpowers skill:\\n${super_escaped}\\n\\nusing-arbiter-os skill:\\n${arbiter_escaped}\\n</EXTREMELY_IMPORTANT>"
   }
 }
 JSON

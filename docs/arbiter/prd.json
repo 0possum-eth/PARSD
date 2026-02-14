@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "arbiter.prd.v1",
+  "daoMode": true,
+  "workflowMode": "arbiter_core",
+  "activeEpicId": "EPIC-RUNTIME-DEPENDENCY-CLOSURE",
+  "epics": [
+    {
+      "id": "EPIC-RUNTIME-DEPENDENCY-CLOSURE",
+      "title": "Close unresolved runtime dependencies",
+      "status": "active",
+      "tasks": [
+        {
+          "id": "TASK-DEP-001",
+          "title": "Resolve core command/module import gaps",
+          "status": "pending",
+          "oracleRequired": false
+        },
+        {
+          "id": "TASK-DEP-002",
+          "title": "Re-verify receipt gates after dependency closure",
+          "status": "pending",
+          "oracleRequired": true
+        }
+      ]
+    }
+  ]
+}

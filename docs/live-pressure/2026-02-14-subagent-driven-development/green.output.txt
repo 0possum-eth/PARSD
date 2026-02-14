@@ -1,0 +1,8 @@
+CHOICE: C
+
+RATIONALE: A and B are fake speed. One big pass with one review is how you miss a regression and walk into a 9:00am incident review with excuses. C is the fastest way to ship fixes that actually hold: isolate each bug, finish it fully, then move on. It also matches the required skill exactly: fresh implementer per task, then spec review, then code-quality review, with fix loops before proceeding. Under this pressure, controlled iteration beats cleanup chaos every time.
+
+ACTIONS:
+1. Create an isolated hotfix worktree/branch and lock in a three-item task list with explicit acceptance criteria for each bug.
+2. Dispatch a fresh implementation subagent for Task 1 (`Payment timeout retry bug`) with full context and require tests plus self-review.
+3. Run spec-review subagent, then code-quality-review subagent for Task 1; if either flags issues, send back to the same implementer and loop until both approve before starting Task 2.

@@ -1,0 +1,4 @@
+taskRef=TASK-DEP-001
+ts=2026-02-14T10:25:18Z
+scope=dependency-manifest-status
+command=git status --short -- package.json package-lock.json pnpm-lock.yaml yarn.lock requirements.txt requirements-dev.txt pyproject.toml poetry.lock Pipfile Pipfile.lock Cargo.toml Cargo.lock go.mod go.sum Gemfile Gemfile.lock

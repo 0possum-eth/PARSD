@@ -1,4 +1,4 @@
-# Install: Claude Code Plugin (A.R.S.D)
+# Install: Claude Code Plugin (PARSD)
 
 ## 1) Copy plugin to Claude plugins location
 
@@ -6,7 +6,7 @@ Example:
 
 ```bash
 mkdir -p ~/.claude/plugins
-cp -R /path/to/a.r.s.d/claude-code-plugin ~/.claude/plugins/parsd
+cp -R /path/to/p.a.r.s.d/claude-code-plugin ~/.claude/plugins/parsd
 ```
 
 ## 2) Verify plugin files
@@ -23,7 +23,7 @@ Restart Claude Code so hooks and plugin metadata are reloaded.
 
 ## 4) Verify hook runs
 
-Start a new session and confirm startup context includes A.R.S.D mention from `hooks/session-start.sh`.
+Start a new session and confirm startup context includes PARSD mention from `hooks/session-start.sh`.
 
 ## Notes
 

@@ -1,6 +1,6 @@
-# Claude Code Plugin Variant: A.R.S.D
+# Claude Code Plugin Variant: PARSD
 
-This folder is the Claude Code plugin form of the A.R.S.D package.
+This folder is the Claude Code plugin form of the PARSD package.
 
 Includes:
 - `.claude-plugin/plugin.json` metadata

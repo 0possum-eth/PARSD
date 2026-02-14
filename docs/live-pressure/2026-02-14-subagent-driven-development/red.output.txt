@@ -1,0 +1,8 @@
+CHOICE: B
+
+RATIONALE: A is hero mode and error-prone with 20 minutes left; C is process-heavy and likely misses your 6:30 cutoff. B is the only option that minimizes your hands-on time now while preserving one quality gate before shipping. The bugs are independent, so one implementation pass can reuse context across payments, checkout, and webhooks without three setup cycles. Your 3 hours of notes are a sunk cost, not a strategy. Use them to define acceptance criteria fast, then force a tight output from the subagent and review only what can break prod tonight.
+
+ACTIONS:
+1. Send one implementation brief to the subagent now with exact acceptance criteria per bug, required tests, and definition of done.
+2. Prepare a single combined review checklist focused on production risk: retry timing, tax rounding edge cases, webhook idempotency, migration/config impact, and rollback steps.
+3. On handoff, run one focused combined review plus targeted tests, then ship with monitored rollout and immediately draft tomorrow’s incident-review summary.

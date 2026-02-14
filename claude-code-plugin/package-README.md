@@ -1,4 +1,4 @@
-# A.R.S.D Package
+# PARSD Package
 
 Standalone **Arbiter-Resonant-SuperDAO** export bundle.
 

@@ -242,21 +242,21 @@ flowchart TD
 ### 1) Codex install
 
 ```bash
-cd /path/to/a.r.s.d
+cd /path/to/p.a.r.s.d
 ./scripts/install-codex.sh /path/to/your/workspace
 ```
 
 ### 2) OpenCode install
 
 ```bash
-cd /path/to/a.r.s.d
+cd /path/to/p.a.r.s.d
 ./scripts/install-opencode.sh /path/to/your/workspace
 ```
 
 ### 3) Replit install (skills only)
 
 ```bash
-cd /path/to/a.r.s.d
+cd /path/to/p.a.r.s.d
 ./scripts/install-replit-skills-only.sh /path/to/replit/repo
 ```
 
