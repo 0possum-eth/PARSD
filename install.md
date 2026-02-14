@@ -2,6 +2,16 @@
 
 This package is self-contained and can be published directly as a GitHub repo.
 
+## Portability Definition
+
+In this package, `Portable` means:
+- one source bundle,
+- multiple host installs (Codex, OpenCode, Replit skills-only),
+- and a parallel Claude Code plugin form.
+
+It does **not** claim identical runtime hook behavior in all hosts.
+Replit in this package is intentionally skills-only.
+
 ## What You Get
 
 - Full skill set for Arbiter-Resonant-SuperDAO (`skills/`)
