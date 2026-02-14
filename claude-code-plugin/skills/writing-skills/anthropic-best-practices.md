@@ -47,7 +47,7 @@ with pdfplumber.open("file.pdf") as pdf:
 ```markdown  theme={null}
 ## Extract PDF text
 
-PDF (Portable Document Format) files are a common file format that contains
+PDF files are a common file format that contains
 text, images, and other content. To extract text from a PDF, you'll need to
 use a library. There are many libraries available for PDF processing, but we
 recommend pdfplumber because it's easy to use and handles most cases well.

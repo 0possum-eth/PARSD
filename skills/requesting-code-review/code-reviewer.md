@@ -136,7 +136,7 @@ git diff {BASE_SHA}..{HEAD_SHA}
 
 ### Recommendations
 - Add progress reporting for user experience
-- Consider config file for excluded projects (portability)
+- Consider config file for excluded projects (cross-project consistency)
 
 ### Assessment
 

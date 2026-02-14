@@ -1,14 +1,15 @@
 # PARSD (A.R.S.D Package)
 
-Standalone **Arbiter-Resonant-SuperDAO** export bundle.
+**Persistent Arbiter Resonant SuperDAO** standalone package.
 
-## Why "Portable" Is Defensible
+## Why "Persistent" Fits
 
-`Portable` in PARSD means **package portability across host environments**:
+`Persistent` in PARSD reflects how the system operates:
 
-- Same repo layout installs in Codex, OpenCode, and Replit (skills-only) via `scripts/`.
-- Same bundle includes a Claude Code plugin form under `claude-code-plugin/`.
-- Same skills corpus is shipped once and reused across environments.
+- Ledger receipts are durably written to disk and used as evidence gates.
+- M2 memory is persisted with raw/compressed zones plus hash-linked rehydration.
+- M1 SSoT documents are stored in a protected directory with encrypted payloads.
+- Watchdog retries are bounded and tied to saved execution state.
 
 Scope note:
 - Full runtime automation (M1-M5 behavior hooks) is designed for Codex/OpenCode runtime wiring.

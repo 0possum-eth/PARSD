@@ -2,12 +2,12 @@
 
 This package is self-contained and can be published directly as a GitHub repo.
 
-## Portability Definition
+## Persistence Definition
 
-In this package, `Portable` means:
-- one source bundle,
-- multiple host installs (Codex, OpenCode, Replit skills-only),
-- and a parallel Claude Code plugin form.
+In this package, `Persistent` means:
+- durable ledger-first execution records,
+- durable memory state (raw + compressed + hash-linked source),
+- and durable protected SSoT state used for context injection.
 
 It does **not** claim identical runtime hook behavior in all hosts.
 Replit in this package is intentionally skills-only.
