@@ -1,0 +1,22 @@
+{
+  "name": "arsd-standalone",
+  "description": "Arbiter-Resonant-SuperDAO standalone plugin bundle with skills, orchestration commands, and resonant guardrail runtime source",
+  "version": "1.0.0",
+  "author": {
+    "name": "0possum-eth"
+  },
+  "homepage": "https://github.com/0possum-eth/arbiter-resonant-superdao",
+  "repository": "https://github.com/0possum-eth/arbiter-resonant-superdao",
+  "license": "MIT",
+  "keywords": [
+    "arbiter",
+    "superdao",
+    "resonant",
+    "skills",
+    "m1",
+    "m2",
+    "m3",
+    "m4",
+    "m5"
+  ]
+}
