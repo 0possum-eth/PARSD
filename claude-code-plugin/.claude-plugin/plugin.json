@@ -1,14 +1,15 @@
 {
-  "name": "arsd-standalone",
-  "description": "Arbiter-Resonant-SuperDAO standalone plugin bundle with skills, orchestration commands, and resonant guardrail runtime source",
+  "name": "parsd",
+  "description": "Persistent Arbiter Resonant SuperDAO plugin bundle with skills, orchestration commands, and Resonant guardrail runtime sources",
   "version": "1.0.0",
   "author": {
     "name": "0possum-eth"
   },
-  "homepage": "https://github.com/0possum-eth/arbiter-resonant-superdao",
-  "repository": "https://github.com/0possum-eth/arbiter-resonant-superdao",
+  "homepage": "https://github.com/0possum-eth/PARSD",
+  "repository": "https://github.com/0possum-eth/PARSD",
   "license": "MIT",
   "keywords": [
+    "parsd",
     "arbiter",
     "superdao",
     "resonant",
@@ -17,6 +18,7 @@
     "m2",
     "m3",
     "m4",
-    "m5"
+    "m5",
+    "obra-superpowers-foundation"
   ]
 }

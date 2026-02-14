@@ -9,7 +9,7 @@
       "name": "parsd",
       "description": "Persistent Arbiter Resonant SuperDAO plugin bundle with skills, orchestration commands, and Resonant M1-M5 runtime sources",
       "version": "1.0.0",
-      "source": "./",
+      "source": "./claude-code-plugin",
       "author": {
         "name": "0possum-eth"
       }

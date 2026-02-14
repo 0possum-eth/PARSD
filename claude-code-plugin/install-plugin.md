@@ -6,15 +6,15 @@ Example:
 
 ```bash
 mkdir -p ~/.claude/plugins
-cp -R /path/to/a.r.s.d/claude-code-plugin ~/.claude/plugins/arsd-standalone
+cp -R /path/to/a.r.s.d/claude-code-plugin ~/.claude/plugins/parsd
 ```
 
 ## 2) Verify plugin files
 
 ```bash
-ls ~/.claude/plugins/arsd-standalone/.claude-plugin/plugin.json
-ls ~/.claude/plugins/arsd-standalone/hooks/hooks.json
-ls ~/.claude/plugins/arsd-standalone/skills
+ls ~/.claude/plugins/parsd/.claude-plugin/plugin.json
+ls ~/.claude/plugins/parsd/hooks/hooks.json
+ls ~/.claude/plugins/parsd/skills
 ```
 
 ## 3) Restart Claude Code
